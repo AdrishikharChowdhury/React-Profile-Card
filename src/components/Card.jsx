@@ -23,11 +23,21 @@ const Card = (props) => {
           <li className='self-start lg:text-xl text-md font-medium'>{props.location}</li>
           <li className='self-start lg:text-xl text-md font-medium'>{props.skills}</li>
           <li className='lg:text-3xl text-xl flex justify-evenly w-4/5'>
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faGithub} />
-            <FontAwesomeIcon icon={faLinktree} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faGlobe} />
+              <a href="https://www.linkedin.com/in/adrishikhar-chowdhury/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://github.com/AdrishikharChowdhury" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href="https://linktr.ee/Adrishikhar" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinktree} />
+            </a>
+            <a href="https://www.instagram.com/adrishikharchowdhury/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="https://adrishikharchowdhury.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGlobe} />
+            </a>
           </li>
         </ul>
       </div>
