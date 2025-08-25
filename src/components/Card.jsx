@@ -2,17 +2,19 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram, faLinktree } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import backgroundImage from './assets/background.jpg';
+import profilePhoto from './assets/photo.jpeg';
+
 
 const Card = (props) => {
   return (
     <div className="bg-violet-950 rounded-4xl w-4/5 lg:h-4/5 h-[70vh] relative overflow-hidden shadow-2xl/50 shadow-slate-500 font-mono 2xl:w-1/3">
       <div className="absolute inset-0 bg-black rounded-t-4xl z-0 sm:h-1/4 h-1/5 bg-cover bg-no-repeat bg-center border-b-8 border-white"
-      style={{backgroundImage: `url("./src/assets/background.jpg")`}}></div>
+      style={{ backgroundImage: `url(${backgroundImage})` }}></div>
       <div className="relative flex flex-col justify-around items-center text-white font-bold lg:p-10 p-7 gap-5 h-full z-10">
         <div 
           className="photo rounded-full lg:h-70 lg:w-70 sm:h-60 sm:w-60 w-50 h-50 bg-cover bg-no-repeat bg-center border-white border-8"
-          style={{backgroundImage: `url('./src/assets/photo.jpeg')`}} 
-        ></div>
+          style={{ backgroundImage: `url(${profilePhoto})`}}></div>
 
         <ul className="flex flex-col gap-6 justify-center items-center">
           <li className='sm:text-3xl text-xl'>{props.user}</li>
