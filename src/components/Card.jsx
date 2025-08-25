@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram, faLinktree } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import backgroundImage from './assets/background.jpg';
-import profilePhoto from './assets/photo.jpeg';
+import backgroundImage from '../assets/background.jpg';
+import profilePhoto from '../assets/photo.jpeg';
 
 
 const Card = (props) => {
