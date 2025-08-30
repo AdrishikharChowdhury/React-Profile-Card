@@ -7,7 +7,8 @@ import profilePhoto from '../assets/photo.jpeg';
 
 const Card = (props) => {
   return (
-    <div className="card bg-violet-950 rounded-4xl w-4/5 lg:h-4/5 h-[90vh] relative overflow-hidden shadow-2xl/50 shadow-slate-500 font-mono 2xl:w-1/3">
+    <div className="card bg-violet-950 rounded-4xl w-4/5 lg:h-4/5 xl:h-[95vh]
+    h-[100vh] relative overflow-hidden shadow-2xl/50 shadow-slate-500 font-mono 2xl:w-1/3">
       <div className="absolute inset-0 bg-black rounded-t-4xl z-0 sm:h-1/4 h-1/5 bg-cover bg-no-repeat bg-center border-b-8 border-white"
       style={{ backgroundImage: `url(${backgroundImage})` }}></div>
       <div className="relative flex flex-col justify-around items-center text-white font-bold lg:p-10 p-7 gap-5 h-full z-10">
